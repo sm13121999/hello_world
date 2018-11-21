@@ -16,6 +16,8 @@ x=0
 x==HW (x)
 y=x*2
 x,y,z==Math (x,y)
-for i in range 3:
-	print("hello world")
+while x>y :
+	print ("hello world")
+	x=x+1
+
 
