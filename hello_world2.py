@@ -1,5 +1,4 @@
-def HW (x):
-    print ('hello world')   
+def HW (x):   
     while x<10:
         print (x)
         x=x+1
@@ -17,4 +16,5 @@ x=0
 x==HW (x)
 y=x*2
 x,y,z==Math (x,y)
+print("hello world")
 
