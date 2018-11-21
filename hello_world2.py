@@ -3,8 +3,9 @@ def HW (x):
     while x<10:
         print (x)
         x=x+1
+    return x
 
 #main
 x=0
-HW (x)
+x==HW (x)
 
