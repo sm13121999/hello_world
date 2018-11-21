@@ -16,5 +16,6 @@ x=0
 x==HW (x)
 y=x*2
 x,y,z==Math (x,y)
-print("hello world")
+for i in range 3:
+	print("hello world")
 
