@@ -4,8 +4,7 @@ def HW (x):
         x=x+1
     return x
 
-def Math(x,y):
-	z=y+x
+def Math(x,y,z):
 	for i in range (10):
 		print (z)
 		z=z+3
@@ -15,8 +14,9 @@ def Math(x,y):
 x=0
 x==HW (x)
 y=x*2
-x,y,z==Math (x,y)
-while x>y :
+z=y+x
+x,y,z==Math (x,y,z)
+while y>x :
 	print ("hello world")
 	x=x+1
 
